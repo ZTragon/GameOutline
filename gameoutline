@@ -1,0 +1,282 @@
+Project Outline
+___________________________________
+1. GOALS:
+
+- Learn Java (Austin)
+- Have fun building the game
+- Eventually have a polished product
+___________________________________
+2. PLAN:
+
+[] 1. Write a game outline
+[] 2. Decide on a game development framework/game engine, version control, IDE, and preferred language
+[] 3. Get some sprites
+[] 4. Design a single battle
+
+
+- Online Resources:
+
+___________________________________
+3. TOOLS:
+
+[] - Game Engine: None? Something in android studio?
+[x] - Game Development Framework: libGDX
+[] - IDE: Android Studio (Austin)
+[] - Preferred language: Java (Austin)
+[] - Version Control: github, later use a private server with gitlab
+[] - Platform: Android, desktop, or both
+[x] - 2D, 3D, or 2.5D: 2D
+
+
+- Online Resources:
+
+Google cloud platform and Gitlab tutorial: https://www.youtube.com/watch?v=zprAqNffSjk&feature=youtu.be
+
+libGDX tutorial: https://www.youtube.com/watch?v=rzBVTPaUUDg&list=PLZm85UZQLd2TPXpUJfDEdWTSgszionbJy
+___________________________________
+
+4. TITLE
+
+[] - Title: [empty]
+[] - Subtitle: [empty]
+
+
+- Online Resources:
+___________________________________
+
+5. GAME OVERVIEW
+
+[] - Game Concept: Tactical war game like advance wars
+[] - Genre: Strategy
+[] - Target Audience: advance wars fans, us
+[] - Main Features: 2 - player, AI?
+
+
+- Online Resources: 
+https://www.reddit.com/r/gamedev/comments/4np220/advice_for_a_fire_emblemadvance_wars_type_game/
+___________________________________
+6. GAMEPLAY
+
+[] - Game Progression: Solo campaign?, strictly multiplayer?
+[] - Mission/challenge Structure: Win every battle, others?, pick a faction and decide the fate of the world?
+[] - Puzzle Structure: analyze the strengths and weaknesses of yourself and your opponenent, overcome map specific obstacles
+[] - Objectives (per battle): capture HQ? Defeat a certain number of units? objectives vary depending on map? capture a certain number of capture points?
+[] - Objectives (overall): win solo campaign? win challenge maps? level all characters to max level? 
+[] - Play Flow: battle menu (deploy, end turn, manage resources...), click on units for unit specific options,
+[] - Fog of War?: Probably not.
+
+
+- Online Resources:
+___________________________________
+7. MECHANICS
+
+[x] - Movement: [units move along a grid space by space]
+[] - Grid, Squares, Hexes, or Other: ?
+[] - Unit Stats: damage, defense, # attacks per turn, movement type, HP, other?
+[] - Map Elements (e.g. Terrain): river, grassland, mountain, sea, forest, 
+[] - Including Weather? yes or no
+[] - Unique Characters: 
+[] - Economy/Resource management: gold?, food?, arrows?  
+[] - Units: knight, archer, dragon
+
+
+- Online Resources:
+___________________________________
+7.1 UNIT STATS:
+
+[] - damage:
+[] - defense:
+[] - attack speed:
+[] - movement type:
+[] - hit points:
+
+
+- Online Resources:
+___________________________________
+7.2 MAP ELEMENTS
+
+[] - river:
+[] - grassland: 
+[] - mountain:
+[] - sea:
+[] - forest:
+
+- Online Resources:
+___________________________________
+7.3 CHARACTERS (MECHANICS)
+
+
+- Online Resources:
+___________________________________
+7.4 UNITS
+
+[] - archer:
+[] - knight:
+[] - dragon:
+
+- Online Resources:
+___________________________________
+8. SCREEN FLOW
+Such as: Main Menu > Submenus > Character Selection > Battle Map Selection > Battle
+
+
+- Online Resources:
+___________________________________
+9. GAME OPTIONS
+
+
+- Online Resources:
+___________________________________
+10. REPLAYING AND SAVING
+
+[] - Tools: SQL, Shared Preferences
+
+- Online Resources:
+___________________________________
+11. STORY, SETTING, AND CHARACTERS
+
+[] - Backstory:
+[] - Plot:
+[] - Story/Game Progression: 
+[] - General Setting: medieval fantasy
+[] - Cutscenes and Dialog: 
+[] - Characters:
+
+
+- Online Resources:
+___________________________________
+11.1 SETTING SPECIFICS
+
+[] - World Description
+[] - Regions:
+[] - Factions (if any):
+[] - General Feel
+
+
+- Online Resources:
+___________________________________
+11.1.1 REGION SPECIFICS
+
+
+- Online Resources:
+___________________________________
+11.2 CHARACTERS (PERSONALITY)
+
+
+- Online Resources:
+
+___________________________________
+12. TUTORIAL MAP
+
+
+- Online Resources:
+___________________________________
+13. VISUAL SYSTEM
+
+[] - View: Birds eye view/looking down
+[x] - Camera: Orthographic
+[] - HUD: 
+[] - Menus:
+
+
+- Online Resources:
+___________________________________
+14. CONTROLS
+
+[] - Click on a unit, then select from its menu?
+
+
+
+- Online Resources:
+___________________________________
+15. AUDIO
+
+[] - Music Selection Method: random? by character (CO)?:
+[] - Music Style:
+[] - How to get songs?:
+[] - How to get sound effects?:
+
+
+- Online Resources
+___________________________________
+15.1 SONGS
+
+[] - Main Menu:
+[] - Battle Map:
+
+
+-Online Resources
+___________________________________
+15.2 SOUND EFFECTS
+
+[] - Units:
+[] - Dialog:
+[] - Movement:
+[] - Environmental Effects:
+[] - Attacks:
+[] - Death and Explosions:
+[] - Objective completion and failure:
+[] - Menu Navigation:
+
+
+-Online Resources 
+___________________________________
+16. OUT OF COMBAT OPTIONS
+
+[] - UI customization options:
+[] - Roleplaying options:
+
+
+- Online Resources:
+___________________________________
+17. AI
+
+[] - Player Detection
+[] - Pathing
+[] - Unit Selection
+[] - Attack Selection
+[] - Objective Prioritization
+
+
+- Online Resources:
+
+Pathing: https:https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+___________________________________
+18. NETWORKING
+
+[] - Tools
+
+
+- Online Resources:
+___________________________________
+19. ART
+
+[] - Tools: Gimp, 
+[] - Style: 8 bit?, 16 bit?, fire emblem style?, chrono trigger style?,
+
+
+- Online Resources:
+___________________________________
+19.1 KEY ART ASSETS
+
+[] - Units: knight, archer, dragon
+[] - Character portraits: 
+[] - Tiles:
+[] - Text:
+[] - Background Elements:
+[] - Weapons:
+[] - Death and Explosions:
+[] - Buildings
+[] - Dialog boxes: 
+
+
+- Online Resources:
+___________________________________
+20. ANIMATION
+
+[] - Tools:
+[] - Frame rate: NOT 60 fps!
+
+
+- Online Resources: 
+Type Writer Text: https://medium.com/@ssaurel/create-a-type-writer-effect-on-android-4dc8f2ccada6 ;
